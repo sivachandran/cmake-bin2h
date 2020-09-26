@@ -2,7 +2,7 @@
 Pure CMake function to convert any file into C/C++ header, implemented with only CMake commands.
 
 ## Example Usage
-```
+```cmake
 include(bin2h.cmake)
 ...
 message("Embedding following files into header file ${HEADER_FILE}")
